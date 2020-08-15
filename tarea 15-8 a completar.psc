@@ -14,8 +14,10 @@ Algoritmo ingreso_dias_diario
 	definir dia Como Caracter
 	Mostrar 'Bienvenido/a'
 	
-	Mostrar 'Ingrese dia'
-	si dia = numero entonces mostrar 'error'
+	Mostrar 'Ingrese dia'
+
+	si dia = numero entonces mostrar 'error'
+
 		sino mostrar 'dia'
 	FinSi
 	// acumular valores ingresados en el dia correspondiente
@@ -23,18 +25,27 @@ Algoritmo ingreso_dias_diario
 	
 	
 	Mostrar ' Defina opracion a realizar ' 1 agregar , 2 listar , 3 modificar, 4 salir 
-	Si 1=agregar entonces mostrar 'agregar'
-		
+	Si 1=agregar entonces mostrar 'agregar'
+
+		
+
 	FinSi
-	si 2=listar entonces mostrar 'listar'
-		
+	si 2=listar entonces mostrar 'listar'
+
+		
+
 	FinSi
-	si 3=modificar entonces mostrar 'modificar'
-		
+	si 3=modificar entonces mostrar 'modificar'
+
+		
+
 	FinSi
 	si 4=salir entonces mostrar 'salir'
 	FinSi
 		
+seguir mas tarde
+
+
 		
 
 	
